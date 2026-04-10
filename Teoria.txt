@@ -10,3 +10,9 @@ Electron es una libreria que sirve para crear aplicaciones nativas de escritorio
 
 *****************************************************************************************
 
+Clase 2
+
+
+Ejemplo de estructuras web:
+
+                            themeforest.net 
