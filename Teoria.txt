@@ -1,0 +1,9 @@
+Clase 1
+
+
+
+EL desarrollo web no suele vivir solo en aplicaciones, sino que se pueden crear aplicaciones como discord que se instalan en desktops.
+
+Electron es una libreria que sirve para crear aplicaciones nativas de escritorio como discord, vscode.
+
+
