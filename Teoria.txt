@@ -18,4 +18,23 @@ Ejemplo de estructuras web ( TEMPLATES ):
                             themeforest.net 
 
 
-                             
+Explicacion uso extension Live Server
+
+
+para generar comentario: CTRL + /
+
+
+intro a herramientas de desarrollador del navegador (1:14 hs)
+
+
+Etiquetas de Titulos
+
+
+Contenedor generico DIV
+
+
+
+
+*****************************************************************************************
+
+Clase 3
