@@ -60,8 +60,15 @@ Enlaces e Imagenes ( 30 min a  )
 
                 Sirven para navegar fuer a de nuestro sitio web, insertando la url completa (https://....)
 
-    
+            Enlaces Relativos (1:12 hs)
+
+
+
     Elementos de LINEA y BLOQUE ( 59 min a 1:04 hs )
+
+    Instalacion extensio para marcar identacion en mi codigo (1:18 hs)
+
+        indent-rainbow
 
 
 
