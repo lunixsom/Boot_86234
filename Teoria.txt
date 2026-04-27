@@ -39,4 +39,35 @@ Contenedor generico DIV
 
 Clase 3
 
-s
+
+Listas Ordenadas y Desordenadas ( 4 min a 27 min )
+
+
+
+Etiquetas Metadatas ( 35 min )
+
+    Mas que nada sirve para aportar informacion desde mi navegador hacia los buscadores, que escifiquen tags especificos que yo voy a abordar que resalten mi sitio web.
+
+
+
+Enlaces e Imagenes ( 30 min a  )
+
+    Enlaces (47 min)
+
+        Definimos 3 tipos de Enlaces que tienen distintos objetivos:
+
+            Enlaces Absolutos
+
+                Sirven para navegar fuer a de nuestro sitio web, insertando la url completa (https://....)
+
+    
+    Elementos de LINEA y BLOQUE ( 59 min a 1:04 hs )
+
+
+
+    
+
+
+
+
+
