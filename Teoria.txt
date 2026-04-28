@@ -66,12 +66,25 @@ Enlaces e Imagenes ( 30 min a  )
 
     Elementos de LINEA y BLOQUE ( 59 min a 1:04 hs )
 
-    Instalacion extensio para marcar identacion en mi codigo (1:18 hs)
+    Instalacion extension para marcar identacion en mi codigo (1:18 hs)
 
         indent-rainbow
 
+    
+    Creacion de directorios con archivos html para probar ENLACES RELATIVOS (1:45 hs)
 
-        
+        El problema con esto es que depende deon me encuentre la ruta cambia y esto lo complica todo un poco.
+
+        Una Solucion viable es ponerle al inicio de la ruta una "/" que indica que busque siempre desde el principio, desde la carpeta raiz, o root del proyecto desde donde sea que este:
+
+        /pages/contacto/contacto.html 
+
+
+        El punto de partida siempre es el mismo independientemente de donde se encuentre el archivo. ESTO ME AYUDA A QUE LA RUTA SIEMPRE SEA LA MISMA.
+    
+
+
+
 
 
 
