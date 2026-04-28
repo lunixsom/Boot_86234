@@ -83,6 +83,8 @@ Enlaces e Imagenes ( 30 min a  )
         El punto de partida siempre es el mismo independientemente de donde se encuentre el archivo. ESTO ME AYUDA A QUE LA RUTA SIEMPRE SEA LA MISMA.
     
 
+    
+
 
 
 
