@@ -60,9 +60,23 @@ Enlaces e Imagenes ( 30 min a  )
 
                 Sirven para navegar fuer a de nuestro sitio web, insertando la url completa (https://....)
 
-            Enlaces Relativos (1:12 hs)
+            Enlaces Relativos (1:12 hs a 2 hs)
 
+            Enlaces Ancla ( 2:02 hs a 2:06 hs )
 
+                <a href="#importante">Ir a titulo importante</a>
+                ...
+                ..
+                <h4 id="importante">Un titulo importante</h4>
+
+            Enlaces Mixtos ( 2:08 hs a  )
+
+                <a href="mailto:test@gmail.com">Enviar correo</a>
+                <a href="tel:+5412345678">Llamar</a>
+                <a href="sms:+5412345678">Enviar SMS</a>
+                <a href="files/documento.dpf" download>
+                    Download PDF
+                </a>
 
     Elementos de LINEA y BLOQUE ( 59 min a 1:04 hs )
 
@@ -83,7 +97,18 @@ Enlaces e Imagenes ( 30 min a  )
         El punto de partida siempre es el mismo independientemente de donde se encuentre el archivo. ESTO ME AYUDA A QUE LA RUTA SIEMPRE SEA LA MISMA.
     
 
-    
+
+
+*****************************************************************************************
+
+Clase 4
+
+Prueba de funcionamiento de Enlaces Mixtos en Plataforma Android Studio ( 2:30 min a 8:30 min )
+
+
+Trabajo con Imagenes ( 10 min a  )
+
+    Hay que tener cuidado con las imagenes porque si yo no toco nada, por lo general su ancho va a deformar el doocumento porque va repasar el contenedor que la contenga.
 
 
 
