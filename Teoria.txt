@@ -111,6 +111,18 @@ Trabajo con Imagenes ( 10 min a  )
     Hay que tener cuidado con las imagenes porque si yo no toco nada, por lo general su ancho va a deformar el doocumento porque va repasar el contenedor que la contenga.
 
 
+    ATRIBUTO ALT (17 min)
+
+        Tiene 3 funciones principales:
+
+            - Definir un poco la imagen, una descripcion
+            - Si la imagen no se carga, en el html al menos me va indicar por el texto de que era esa imagen, para dar un poco de contexto.
+            
+            -Ayuda para lo que es CEO que es la optimizacion de busqueda para los buscadores.
+
+            - Muy importante ayuda a mejorar la accesibilidad de tu web a personas con reduccion de la vision por ejemplo.    
+
+
 
 
 
