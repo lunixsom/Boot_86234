@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: #d3d6d7;
+    font-family: Quicksand, Arial, Helvetica, sans-serif;
+    
+}
+
+main {
+    background-color: white;
+    padding: 1px;
+    margin: 15px 2px;
+}
+
+header {
+    background-color: #25588b;
+    color: white;
+    border-radius: 0x;
+    text-align: center;
+}
+
+
+
+h2 {
+    background-color: #2980b9;
+    color: white;
+    text-align: center;
+    border-radius: 0px;
+
+    
+}
+
+a {
+    color: #3498db;
+    font-weight: bold;
+    text-decoration: none;
+    transition: 0.5s;
+    animation: personalizada 2s  
+
+    
+}
+
+a:hover {
+    color: #e74c3c;
+}
+
+
+.primer-enlace {
+    text-align: center;
+}
+
+
+ul {
+    padding-left: 50px;
+}
+
+ol {
+    padding: 18px 0px 20px 50px;
+}
+
+footer {
+    background-color: #34495e;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+.section-1 {
+    background-color: #0289e24a;
+    padding-bottom: 5px;
+    margin-bottom: 20px;
+}
+
+.ul-1 {
+    margin: 1rem;
+}
+
+img {
+    margin-top: 20px;
+
+    width: 100%;
+    max-width: 1200px;
+}
+
+p {
+    padding-top: 10px;
+}

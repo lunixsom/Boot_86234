@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=League+Spartan:wght@100..900&display=swap');
+
+*{
+    box-sizing: border-box;
+    
+}
+body{
+    background-color: #ecf0f1;
+    font-family: 'inter', sans-serif;
+}
+.encabezado{
+    background-color: #2c3e50;
+    color: #ffffff;
+    padding:20px;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top:20px ;
+    
+}
+.encabezado span{
+    font-weight: bold;
+}
+.titulos{
+    color: #ffffff;
+    background-color: #2980b9;
+    text-align: center;
+}
+a{
+    color: #3498db;
+    transition: 0.3s ease;
+    text-decoration: none;
+}
+a:hover{
+    color: #e74c3c;
+}
+.footer{
+    background-color: #2980b9;
+    color: #34495e;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.bienvenidos{
+    text-align: center;
+    margin-bottom:20px ;
+    background-color:rgb(178, 209, 226)
+}
+.recomendados ul{
+    list-style-type: disc;
+}
+.img{
+    width: 100%;
+    border: #3498db solid;
+}

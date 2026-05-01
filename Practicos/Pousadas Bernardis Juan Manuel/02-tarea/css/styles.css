@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, Helvetica, Verdana;
+    background-color: #e0e4e6;
+    margin: 10px;
+    padding: 0;
+}
+.pagina {
+    margin: 0;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+header,
+footer{
+    text-align: center;
+    background-color: #2d537e;
+    color: white;
+}
+h2 {
+    background-color: #2667c9;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+}
+a {
+    text-decoration: none;
+    color: #1577b8
+}
+a:hover {
+    color: #ec4431;
+}
+#intro {
+    background-color: #daf0ff;
+    text-align: center;
+}
+img {
+    height: 500px;
+    width: auto;
+}
+@media (max-width: 768px) {
+  img {
+    width: 100%;
+    height: auto;
+  }
+}
