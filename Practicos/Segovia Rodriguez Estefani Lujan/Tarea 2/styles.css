@@ -77,9 +77,13 @@ footer {
     margin: auto;
     background-color: #005b96;
     color: white;
-    text-align: center;
     padding: 5px;
     font-size: 12px;
+}
+
+footer p{
+    text-align: center;
+
 }
 
 #Practica{

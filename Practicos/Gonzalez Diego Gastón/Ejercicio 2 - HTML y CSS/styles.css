@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #ecf0f1;
+    padding: 10px 2px;
+    margin: 5px 5px;
+}
+
+
+
+header {
+    color: white;
+    background-color: #0c447c;
+    text-align: center;
+    padding: 10px 2px;
+    margin: 10px 5px;
+}
+
+a {
+    color: #3498db;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #e74c3c;
+}
+
+
+
+h2 {
+    color: #ffffff;
+    text-align: center;
+    background-color: #2980b9;
+}
+
+
+ul {
+    list-style-type: circle;
+    margin: 20px;
+    padding: 10px;
+}
+
+ol {
+    list-style-type: decimal;
+    margin: 20px;
+    padding: 10px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #0c447c;
+    color: white;
+}
+
+p {
+    margin: 20px 0px;
+    line-height: 1;
+}
+
+img {
+    width: 60%;
+    padding: 20px 0px;
+
+}
+
+.bienvenidos { 
+    text-align: center;
+    margin: 20px 5px;
+    background-color: lightblue;
+}
+
+
+.lugares {
+    margin: 20px 5px;
+}
+
+.bariloche {
+    margin: 20px 5px;
+    img {
+        width: 80%;
+    }
+}
+
+.rio {
+    margin: 20px 5px;
+}
+
+.cusco {
+    margin: 20px 5px;
+}
+
+img {
+    @media (max-width: 768px) {
+        width: 100%;
+    }
+}
