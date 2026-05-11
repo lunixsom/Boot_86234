@@ -1,0 +1,212 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*Definicion de variables*/
+:root{
+    --primary-color:	#0055af; /*Color principal (títulos h2, botones, sección inicio)*/
+    --secondary-color:	#121212; /*Color secundario (header, footer, bordes)*/
+    --background-color:	#f8f9fa; /*Fondo del body*/
+    --text-color:	#212529; /*Color del texto principal*/
+    --text-color-light:	#fff;	/*Color del texto claro*/
+    --font-family:'Arial', sans-serif;
+}
+body{
+    font-family: var(--font-family);
+    background-color: var(--background-color);
+    color: var(--text-color);
+    min-height: 100dvh;
+    display: flex;  
+    flex-direction: column;
+}
+.nav-list a{
+    text-decoration: none;
+    transition: color 0.25s ease;
+    color: var(--text-color-light);
+}
+.nav-list a:hover{
+    color: var(--primary-color);
+}
+.navbar{
+    background-color: var(--secondary-color);
+    color: var(--text-color-light);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+}
+.navbar nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px; /* Espacio entre logo y enlaces */
+    
+}
+
+.nav-list {
+    display: flex;
+    justify-content: center; /* Centra los enlaces horizontalmente */
+    gap: 20px; /* Espacio entre enlaces */
+    list-style: none;
+    padding: 0;
+    margin-bottom: 1rem; /*Espacio debajo de los enlaces*/
+}
+
+/*Tamaño del logo*/
+.logo{
+    margin-top: 1rem;
+    width: 70px;
+    height: 70px;
+}
+.main-container{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-top: 2rem;
+    flex: 1;
+    
+}
+.inicio{
+    background-color: var(--primary-color);
+    color: var(--text-color-light);
+    border-radius: 6px;
+    padding: 2rem;
+}
+.main-text{
+    margin-bottom: 1.5rem;
+}
+.juegos-destacados h3{
+    background-color: var(--secondary-color);
+    color: var(--text-color-light);
+    padding: 8px;
+    border-radius: 5px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.juegos-destacados div {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.juegos-destacados img {
+    width: 100%;
+    height: 400px;
+    border-radius: 8px;
+    object-fit: cover;
+    margin-bottom: 1rem;
+}
+.juegos-destacados p {
+    margin-bottom: 1.5rem;
+    line-height: 1.5;
+}
+.juegos-destacados .price {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: var(--primary-color);
+    margin-bottom: 1rem;
+    text-align: right;
+    margin-right: 1rem;
+}
+.juegos-destacados button{
+    background-color: var(--primary-color);
+    padding: 1rem;
+    color: var(--text-color-light);
+    border: none;
+    border-radius: 7px;
+    font-size: 1rem;
+    font-weight: 700;
+    cursor: pointer;
+    transition: background-color 0.25s ease;
+}
+.juegos-destacados button:hover{
+    background-color: #003f8f;
+}
+.article-juegos {
+    border: 1px solid #ccc;
+    padding: 16px;
+    border-radius: 8px;
+}
+h2{
+    color: var(--primary-color);
+    text-align: left;
+    width: 100%;
+    border-bottom: 3px solid var(--primary-color);
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+    padding-bottom: 1rem;
+}
+
+.form{
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 28px 24px;
+    border-radius: 16px;
+    background-color: var(--secondary-color);
+    
+}
+.contacto .form input,
+.contacto .form textarea {
+    margin-bottom: 1rem;
+    width: 100%;
+    font-size: 16px;
+    padding: 8px;
+    border: none;
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    border-radius: 5px;
+    font-size: 1rem;
+    font-family: var(--font-family);
+}
+.contacto .form textarea {
+    min-height: 140px;
+    resize: vertical;
+}
+label{
+    
+    color: var(--text-color-light);
+    font-size: 0.95rem;
+    font-weight: 600;
+}
+.contacto .form button {
+    background-color: var(--primary-color);
+    color: var(--text-color-light);
+    border: none;
+    border-radius: 12px;
+    padding: 14px 18px;
+    font-size: 1rem;
+    font-weight: 700;
+    cursor: pointer;
+    transition: background-color 0.25s ease;
+}
+.contacto .form button:hover {
+    background-color: #003f8f;
+}
+
+.servicios p{
+    margin-bottom: 1.5rem;
+    line-height: 1.5;
+}
+.servicios h3{
+    color: var(--primary-color);
+    display: inline-block;
+    border-bottom: 2px solid var(--primary-color) ;
+    margin-bottom: 0.5rem;
+}
+.servicios ul li{
+    background-color: var(--primary-color);
+    color: var(--text-color-light);
+    margin-top: 12px;
+    padding: 12px;
+    border-radius: 6px;
+}
+
+
+.footer{
+    background-color: var(--secondary-color);
+    color: var(--text-color-light);
+    text-align: center;
+    padding:15px ;
+    margin-top: 20px;
+}

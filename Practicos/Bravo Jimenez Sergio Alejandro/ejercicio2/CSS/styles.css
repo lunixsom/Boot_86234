@@ -1,0 +1,106 @@
+.body-panel {
+    background-color: #fffffff0;
+    font-family: Arial, sans-serif;
+    min-height: 100vh;
+    margin: 0;
+
+    
+    }   
+
+.mi-header {
+    margin: 0px;
+    background-color: #aab3d1f0;
+    padding: 0px;
+    text-align: center;    
+    display: flex; 
+    flex-direction: column;
+    justify-content: space-between;    
+}
+h1 {
+    background-color: rgb(83, 115, 188);
+    color: #ffffff;   
+    margin: 0px;
+    border-top: 0px;
+    border-bottom: 0px;
+    padding-bottom: 40px;
+    font-size: 1.5em; 
+    margin-bottom: 0px; 
+}
+.texto-base {
+    background-color: rgb(83, 115, 188);
+    color: #ffffff;
+    font-size:14px;
+    padding-top: 80px  ;
+    margin-top: 50px;
+    margin: 0;
+    padding: 0px;
+    margin-bottom: 0px;
+}
+
+  .mi-h2 {
+    background-color: rgb(83, 115, 188);
+    color: #ffffff;
+    font-size: 1.2em;
+    margin-top: 10px;
+    text-align: center; 
+    font-size: 17px;
+    margin-bottom: 0px;
+} 
+.p-parrafo {
+    text-align: center;
+    font-size: 14px;
+    line-height: 1.00;
+    background-color: rgb(188, 241, 249);
+    border-top: 0px;
+   
+    padding: 10px;
+    margin: 0px;
+    margin-top: 0px;
+
+}
+a {
+    color: #ce0c0c;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 17px;
+}   
+
+.mi2-h2 {
+    background-color: rgb(54, 82, 149);
+    color: #ffffff;
+    font-size: 1.2em;
+    margin-top: 10px;
+    text-align: center; 
+    font-size: 17px;
+    margin-bottom: 0px;
+}
+
+.contenedor-imagen {
+    margin: 10px;
+    width: 800px;
+    height: 400px;
+    object-fit: cover;    
+   
+}   
+
+.pie-pagina {
+    background-color: #aab3d1f0;
+    color: white;
+    padding: 10px;
+    text-align: center;    
+    margin-top: 20px;
+}   
+.pie-parrafo {
+    background-color: rgb(54, 82, 149);
+    margin: 0;
+    padding: 0px;
+    font-size: 14px; 
+}   
+
+
+
+
+
+
+
+

@@ -123,8 +123,26 @@ Trabajo con Imagenes ( 10 min a  )
             - Muy importante ayuda a mejorar la accesibilidad de tu web a personas con reduccion de la vision por ejemplo.    
 
 
+MEJORAS EN LA EXPERIENCIA DE CARGA DEL USUARIO AL MOMENTO DE INICIAR A NUESTRO SITIO WEB ()
 
-  
+    Cuidado con RESOLUCION Imagenes (46 min)
+
+        Cuidado con agregar imagenes muy grandes que malogran el rendimiento de mis sitios, al tardar en cargarlas.
+
+        ESTO LO PUEDO SOLUCIONAR redimensionar la imagen desde paint con el boton resize, CON ESTO TAMBIEN LE BAJO EL PESO A LA IMAGEN y mejoro el rendimiento en mi web.
+
+
+
+    Borrar METADATAS de Imagenes (56 min)
+
+        tinypng.com
+
+        Borra algunas metadatas que tienen las imagenes y baja mas el peso de la misma.
+
+    
+    Tipo de Imagenes (1:02 hs)
+
+        El mejor estandar ahora es WebP que es mucho mas liviano que jpeg y no pierde calidad. Tambien elformato AVIF es parecido.
 
 
     
