@@ -145,6 +145,28 @@ MEJORAS EN LA EXPERIENCIA DE CARGA DEL USUARIO AL MOMENTO DE INICIAR A NUESTRO S
         El mejor estandar ahora es WebP que es mucho mas liviano que jpeg y no pierde calidad. Tambien elformato AVIF es parecido.
 
 
+
+    Prevenir que tu imagen se deforme (1:10 hs)
+
+        Lo logras jugando siempre con una medida de la imagen, con width o con height ya sea con pixeles o porcentaje.
+
+    
+    Atributo Loadinng lazy (1:17 hs)
+
+        Es como una carga diferida, osea yo le indico que le de prioridad a la carga de imagenes que primero se va a topar el usuario al entrar en mi web y el resto los vaya cargando de manera diferida o de manera perezosa.
+
+
+                Atributo: loading="lazy"
+
+            
+    Etiqueta semantica para imagenes (1:21 hs)
+
+        Etiqueta picture indica que hay una imagen peor ademas puedo detectar que ancho de pantalla tiene el dispositivo que esta cargando mi sitio web y puedo tener dos o tres imagenes de distintos tamaños. Se suelen considerar 3 medidas como mucho.
+
+
+            <picture>
+                <source media="( width < 550px )" srcset="/assets/images/...">
+            </picture>
     
 
 
