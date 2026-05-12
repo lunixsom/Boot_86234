@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 3</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="main-header" id="header-inicio">
+        <img class="img-header" src="assets/images/logo.png" alt="Imagen del logo de la tienda">
+        <nav class="nav-header">
+            <ul class="nav-list">
+                <li class="nav-item"><a href="#header-inicio">Inicio</a></li>
+                <li class="nav-item"><a href="#id-games">Juegos</a></li>
+                <li class="nav-item"><a href="#id-contact">Contacto</a></li>
+                <li class="nav-item"><a href="#id-services">Servicios</a></li>
+                <li class="nav-item-inicio"><a href="#header-inicio"><img title="Ir hacia arriba" src="assets/images/flecha.png" alt="Flecha que te lleva arriba de todo."></a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="main-content">
+        <section class="welcome-section">
+            <h1>Bienvenido a Gaming Zone</h1>
+            <p>Tu destino para las últimas noticias, reseñas y lanzamientos de videojuegos. Explora nuestro catálogo de juegos destacados y mantente al día con las tendencias del mundo gaming. Aquí encontrarás todo lo que necesitas para sumergirte en el universo de los videojuegos, desde títulos clásicos hasta las novedades más emocionantes. ¡Únete a nuestra comunidad de gamers y comparte tu pasión por los videojuegos con nosotros!</p>
+        </section>
+        <section class="offers-section">
+            <h2 id="id-games">Juegos Destacados</h2>
+            <div class="games-offers">
+                <h3>Legend of Zelda: Breath of the Wild</h3>
+                <img src="assets/images/1.avif" alt="Imagen de la portada del juego Legend of Zelda: Breath of the Wild">
+                <p>Viaja a través de vastas praderas, bosques y cimas de montañas mientras descubres cómo cayó en la ruina el reino de Hyrule... ¡Y entra a un mundo de descubrimiento, exploración y aventura que ha sido actualizado con mejoras para un mayor rendimiento en The Legend of Zelda™: Breath of the Wild – Nintendo Switch™ 2 Edition! Con mayor velocidad de fotogramas, menores tiempos de carga y mejoras en la resolución y en las texturas, ¡esta emocionante aventura de mundo abierto luce mejor que nunca!</p>
+                <p>Disponible en Nintendo Switch.</p>
+                <price>$59.99</price>
+                <button class="button-submit">Comprar</button>
+            </div>
+            <div class="games-offers">
+                <h3>Mario Kart™ World</h3>
+                <img src="assets/images/2.avif" alt="Imagen de la portada del juego Mario Kart™ World">
+                <p>¡En esta gigantesca evolución de la serie Mario Kart™ todo este mundo es tu pista de carreras! Todos los caminos que recorras estarán conectados en un mundo que puedes explorar ampliamente. Conduce por senderos entre las pistas para cruzar por montañas, bosques, ciudades y más. Deléitate con los impresionantes paisajes mientras exploras a tu propio ritmo en Paseo libre o mira cómo un cambio repentino en el clima puede alterar un empate en un reñido Grand Prix.</p>
+                <p>Disponible en Nintendo Switch.</p>
+                <price>$113.399</price>
+                <button class="button-submit">Comprar</button>
+            </div>
+        </section>  
+        <section class="contact-section">
+            <h2 id="id-contact">Contacto</h2>
+            <div class="input-contact">
+                <p>Nombre:</p><input type="text" placeholder="John Doe">
+                <p>Correo electrónico:</p><input class="mail type="email" placeholder="ejemplo@correo.com" pattern="[A-Za-z0-9._+\-']+@[A-Za-z0-9.\-]+\.[A-Za-z]{2,}$">
+                <p>Mensaje:</p><textarea name="message" cols="30" rows="5" placeholder="Escribe tu mensaje aqui..."></textarea>
+                <button class="button-submit" type="submit">Enviar</button>
+            </div>
+        </section>
+        <section class="service-section">
+            <h2 id="id-services">Servicios</h2>
+            <div class="services">
+                <p>En Gaming Zone, ofrecemos una variedad de servicios para mejorar tu experiencia de juego y mantenerte conectado con la comunidad gamer. Ya sea que estés buscando los últimos lanzamientos, consejos para mejorar tu juego o simplemente quieras compartir tu pasión por los videojuegos, estamos aquí para ayudarte.</p> 
+                <a href="#" class="link-services">Venta de videojuegos físicos y digitales.</a>
+                <a href="#" class="link-services">Reseñas y recomendaciones personalizadas.</a>
+                <a href="#" class="link-services">Eventos y torneos de gaming.</a>
+                <a href="#" class="link-services">Soporte técnico para consolas y juegos.</a>
+            </div>
+        </section>
+    </main>
+    <footer class="main-footer">
+        <p>© 2026 Gaming Zone - Todos los derechos reservados</p>
+    </footer>
+</body>
+</html>
