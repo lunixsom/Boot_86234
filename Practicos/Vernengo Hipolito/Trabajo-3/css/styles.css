@@ -1,0 +1,207 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--font-family);
+}
+
+:root{
+    --primary-color: #0055af;
+    --secondary-color: #121212;
+    --background-color: #f8f9fa;
+    --text-color: #212529;
+    --text-color-light:	#fff;
+    --font-family: 'Arial', sans-serif;
+}
+
+body{
+    background-color: var(--background-color);
+    color: var(--text-color);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    background-color: var(--secondary-color);
+    align-items: center;
+    padding: 10px 0;
+    gap: 5px;
+
+    .logo{
+        width: 70px;
+        height: 70px;
+    }
+}
+
+.nav-list{
+    display: flex;
+    gap: 15px;
+}
+
+.nav-item{
+    list-style: none;
+
+    a{
+        text-decoration: none;
+        color: var(--text-color-light);
+        font-weight: bold;
+        transition: 0.25s ease;
+
+        &:hover{
+            color:var(--primary-color)
+        }
+    }
+}
+
+main{
+    width: 80%;
+    margin: 0 auto;
+    flex-grow: 1;
+    max-width: 1200px;
+}
+
+.bienvenida{
+    background-color: var(--primary-color);
+    padding: 25px 10px;
+    border-radius: 8px;
+    color: var(--text-color-light);
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin: 20px 0;
+    line-height: 1.5;
+}
+
+.subtitle{
+    color: var(--primary-color);
+    border-bottom: 2px solid var(--primary-color);
+    padding: 7px 0;
+    text-transform: uppercase;
+}
+
+.juegos-destacados{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.juegos{
+    padding: 30px 20px;
+    border: 1px solid var(--secondary-color);
+    border-radius: 2px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+
+    .nombre-juegos{
+        color: var(--text-color-light);
+        background-color: var(--secondary-color);
+        padding: 5px;
+        border-radius: 5px;
+    }
+
+    img{
+        width: 100%;
+        height: 400px;
+        object-fit: cover;
+        border-radius: 5px;
+    }
+
+    .descripciones{
+        line-height: 1.5;
+    }
+
+    .precio{
+        color: var(--primary-color);
+        text-align: end;
+        font-weight: bold;
+        font-size: 20px;
+    }
+}
+
+.botones{
+    padding: 10px 12px;
+    color: var(--text-color-light);
+    background-color: var(--primary-color);
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100px;
+    border: none;
+}
+
+.contacto{
+    margin: 20px 0 10px 0;
+}
+
+.formulario{
+    margin: 0 auto;
+    width: 500px;
+    max-width: 100%;
+    background-color: var(--secondary-color);
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+
+    label{
+        color: var(--text-color-light);
+        font-size: 14px;
+        margin-top: 7px;
+        font-weight: bold;
+        margin-bottom: 5px;
+    }
+
+    input{
+        margin-bottom: 15px;
+        width: 100%;
+        height: 40px;
+        padding: 5px;
+    }
+
+    textarea{
+        padding: 5px;
+    }
+}
+
+.formulario .botones{
+    margin: 20px 0 10px 0;
+}
+
+.servicios{
+    .subtitle{
+        margin: 20px 0 15px 0;
+    }
+
+    .descripciones{
+        margin-bottom: 10px;
+    }
+
+    .lista-servicios{
+        display: flex;
+        flex-direction: column;
+        gap:8px;
+        color: var(--text-color-light);
+
+        li{
+        padding: 10px;
+        background-color: var(--primary-color);
+        border-radius: 5px;
+        list-style: none;
+        }
+    }
+}
+
+.footer{
+    background-color: var(--secondary-color);
+    text-align: center;
+    margin-top: 45px;
+
+    .footer-brand{
+        padding: 30px;
+        color: var(--text-color-light)
+    }
+}
