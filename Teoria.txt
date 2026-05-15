@@ -165,10 +165,20 @@ MEJORAS EN LA EXPERIENCIA DE CARGA DEL USUARIO AL MOMENTO DE INICIAR A NUESTRO S
 
 
             <picture>
-                <source media="( width < 550px )" srcset="/assets/images/...">
+                <source media="( width < 550px )" srcset="/assets/images/paisaje-mobile">
+
+                <source media="( width < 1000px )" srcset="/assets/images/paisaje-tablet">
+
+                <img src="/assets/images/rana-tiny.jpg" alt="" width="100%">
+
             </picture>
     
 
+        Sino entra en los media entonces por default entra a la img suelta en el picture.
+
+
+    
+     
 
 
 
