@@ -177,8 +177,16 @@ MEJORAS EN LA EXPERIENCIA DE CARGA DEL USUARIO AL MOMENTO DE INICIAR A NUESTRO S
         Sino entra en los media entonces por default entra a la img suelta en el picture.
 
 
-    
-     
+
+    Atributo title para mejorar accesibilidad elementos (1:38 hs)
+
+
+
+    Estilos en hojas externas ()
+
+
+    INSTALACION de extension VSCODE Error Lens (2:08 hs)
+
 
 
 
