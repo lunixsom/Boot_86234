@@ -197,5 +197,27 @@ Clase 5
 CSS
 
 
+Caso de especificidad en CSS (23 min)
+
+    Entre un selector general y uno mas especifico (como un id) gana el mas especifico.
+
+
+
+Shorthand propiedad text-decoration(33 min)
+
+Propiedad font-family (45 min)
+
+Propiedad line-height (52 min)
+
+
+Cambiar estilos a ENLACES (59 min)
+
+    text-decoration
+
+    pseudo clases - hover (1:07 hs)
+
+
+
+Propiedad transition (1:14 hs)
 
 
