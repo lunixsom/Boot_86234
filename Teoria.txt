@@ -221,6 +221,21 @@ Cambiar estilos a ENLACES (59 min)
 Propiedad transition (1:14 hs)
 
 
+Colores Degradados de fondo - Gradientes radiales (2:00 hs)
+
+    background-image o background: linear-gradient(red, orange, yellow)
+
+
+
+Google Fonts (2:14 hs)
+
+
+
+
+
+*****************************************************************************************
+
+Clase 6
 
 
 
