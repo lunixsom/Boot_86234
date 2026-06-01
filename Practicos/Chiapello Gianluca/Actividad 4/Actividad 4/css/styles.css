@@ -1,0 +1,291 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-color: #002112;
+    --secondary-color: #27AE61;
+    --text-color: white;
+    --accent-color: #84d914;
+    --background-color: #00341d;
+    --background-secondary-color: #121212;
+    --font-family: 'Nunito', sans-serif;
+}
+
+body {
+    font-family: var(--font-family);
+    background-color: var(--background-color)
+}
+
+.logo {
+    width: 50px;
+    height: 50px;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header h1 {
+    text-align: center;
+    color: var(--text-color);
+    padding-top: 10px;
+    padding-bottom: 8px;
+
+    span {
+        color: var(--accent-color);
+    }
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    padding-bottom: 10px;
+    font-weight: bold;
+}
+
+nav ul li a {
+    color: var(--text-color);
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: var(--accent-color);
+}
+
+.hero {
+    position: relative;
+    width: 100%;
+    height: 600px;
+}
+
+.hero-video {
+    width: 100%;
+    object-fit: cover;
+    display: block;
+    height: 100%;
+}
+
+.banner-content {
+    position: absolute;
+    bottom: 20%;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgba(0, 0, 0, 0.65);
+    color: var(--text-color);
+    padding: 20px 40px;
+    border-radius: 8px;
+    text-align: center;
+    width: fit-content;
+}
+
+.banner-content h2 {
+    margin-bottom: 5px;
+}
+
+.banner-content p {
+    margin-bottom: 5px;
+}
+
+.section-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 120px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.text-column {
+    flex: 1;
+    color: var(--text-color);
+    text-align: center;
+}
+
+.text-column h2 {
+    margin-bottom: 20px;
+}
+
+.text-column p {
+    margin-bottom: 10px;
+}
+
+.image-column {
+    flex: 1;
+}
+
+.image-column img {
+    width: 100%;
+    display: block;
+}
+
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 40px 20px;
+    margin: 0 auto;
+    background-color: var(--background-secondary-color);
+    color: var(--text-color);
+    justify-content: center;
+}
+
+.product-card {
+    flex: 1 1 300px;
+    border-radius: 8px;
+    overflow: hidden;
+    width: 300px;
+    border: 1px solid var(--secondary-color);
+    border-radius: 8px;
+    max-width: 300px;
+}
+
+.product-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    display: block;
+}
+
+.product-card h3 {
+    color: var(--accent-color);
+    padding: 15px 15px 8px;
+}
+
+.product-card p {
+    padding: 0 15px 15px;
+}
+
+.benefits {
+    padding: 20px 30px;
+    color: var(--text-color);
+}
+
+.benefits h2 {
+    color: var(--text-color);
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+.benefits table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.benefits thead {
+    background-color: var(--secondary-color);
+
+    th {
+        padding: 12px 15px;
+        text-align: left;
+        border: 1px solid var(--secondary-color);
+    }
+}
+
+.benefits td {
+    padding: 12px 15px;
+    border: 1px solid var(--secondary-color);
+}
+
+.benefits tbody tr:nth-child(even) {
+    background-color: rgba(39, 174, 97, 0.1);
+}
+
+footer {
+    padding: 40px 20px;
+    background-color: var(--background-secondary-color);
+    color: var(--text-color);
+}
+
+.footer-class {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    gap: 40px;
+}
+
+.contacto h2 {
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.contacto p {
+    margin-bottom: 10px;
+}
+
+.contacto ul {
+    list-style: '🥦';
+    padding-left: 15px;
+}
+
+.contacto ul li {
+    margin-bottom: 8px;
+    padding-left: 5px;
+}
+
+.derechos img {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+}
+
+.derechos h1 {
+    font-size: 40px;
+    margin-bottom: 8px;
+    text-align: left;
+
+    span {
+        color: var(--accent-color);
+    }
+}
+
+.derechos p {
+    font-size: 20px;
+}
+
+@media (width < 520px) {
+    header {
+        flex-direction: column;
+    }
+
+    nav ul {
+        flex-direction: column;
+        text-align: center;
+        gap: 10px;
+    }
+
+    .banner-content {
+        width: 90%;
+        padding: 15px;
+    }
+
+    .section-wrapper {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .product-card {
+        flex: 1 1 100%;
+        max-width: 100%;
+        gap: 10px;
+    }
+
+    .footer-class {
+        flex-direction: column;
+    }
+
+    .footer-class h1 {
+        text-align: center;
+    }
+
+    .derechos {
+        text-align: center;
+    }
+}

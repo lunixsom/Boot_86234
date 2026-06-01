@@ -1,0 +1,262 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+:root {
+    --primary-color: #002112;
+    --secondary-color: #27AE61;
+    --text-color: white;
+    --accent-color: #84d914;
+    --background-color: #00341d;
+    --background-secondary-color: #121212;
+    --font-family: Nunito, sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 16px;
+    scroll-behavior: smooth;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    font-family: var(--font-family);
+    background-color: var(--background-secondary-color);
+    color: var(--text-color);
+}
+
+main {
+    flex: 1;
+}
+
+a {
+    text-decoration: none;
+    color: var(--text-color);
+}
+
+.section-wrapper {
+
+    margin: 0 auto;
+    padding: 0 16px;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--background-color);
+    padding: 16px;
+}
+
+h1 {
+    color: var(--text-color);
+}
+
+span {
+    color: var(--accent-color);
+}
+
+.logo-image {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 8px;
+}
+
+.nav-list ul {
+    display: flex;
+    gap: 16px;
+    list-style: none;
+    margin-top: 12px;
+    font-weight: bold;
+}
+
+#hero {
+    position: relative;
+    height: 500px;
+    overflow: hidden;
+}
+
+.hero-video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.banner-content {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    background-color: rgba(0, 0, 0, 0.65);
+
+    padding: 24px;
+
+    text-align: center;
+
+    border-radius: 12px;
+}
+
+#info {
+    background-color: var(--background-color);
+}
+
+#info .section-wrapper {
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
+    align-items: stretch;
+    margin-bottom: 30px;
+}
+
+.info-content {
+    width: 50%;
+    padding: 40px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.info-content h2 {
+    margin-bottom: 20px;
+}
+
+.info-content p {
+    margin-bottom: 14px;
+    line-height: 1.5;
+}
+
+.info-image {
+    width: 50%;
+}
+
+.info-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+#products .section-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    background-color: var(--background-secondary-color);
+}
+
+.product-card {
+
+    padding-bottom: 15px;
+    border: 1px solid var(--secondary-color);
+    border-radius: 6px;
+    width: 300px;
+    overflow: hidden;
+}
+
+.product-card img {
+    height: 200px;
+    width: 100%;
+    object-fit: cover;
+
+}
+
+.product-card h3 {
+    padding: 10px 10px 5px;
+    color: var(--accent-color);
+}
+
+.product-card p {
+    padding: 0 10px 0px;
+    line-height: 1.5;
+}
+
+#benefits {
+    background-color: var(--background-color);
+    padding: 30px 50px 70px;
+    margin-top: 30px;
+
+    h2 {
+
+        margin-bottom: 20px;
+    }
+}
+
+table,
+td {
+    border: 1px solid var(--secondary-color);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: rgba(39, 174, 97, 0.1);
+}
+
+th,
+td {
+    padding: 12px;
+}
+
+th {
+    background-color: var(--secondary-color);
+    text-align: left;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+
+    ul {
+        list-style: none;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    #info .section-wrapper {
+        flex-direction: column;
+        margin-bottom: 15px;
+    }
+
+    .info-content {
+        width: 100%;
+        padding: 20px 16px;
+        padding: 0 16px 40px 16px;
+        margin-bottom: 0;
+        margin-top: 16px;
+    }
+
+    .info-image {
+        width: 100%;
+        padding: 30px 0 20px 0;
+        text-align: center;
+    }
+    footer {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 30px;
+    }
+    #contacto ul {
+        display: inline-block;
+        text-align: left;
+        margin-top: 10px;
+    }
+
+
+    .banner-content {
+        width: 80%;
+        top: 50%;
+    }
+}
