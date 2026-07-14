@@ -44,9 +44,9 @@ console.log(`Costo total del combustible: $${costoTotal}`);
 console.log(`Costo por persona: $${costoPorPersona.toFixed(2)}`);
 
 alert(
-  `Kilómetros del viaje: ${kilometros} km\n` +
-  `Rendimiento del vehículo: ${rendimientoPorLitro} km por litro\n` +
-  `Litros necesarios: ${litrosNecesarios.toFixed(2)}\n` +
-  `Costo total del combustible: $${costoTotal}\n` +
-  `Costo por persona: $${costoPorPersona.toFixed(2)}` 
+ ` Kilómetros del viaje: ${kilometros} km
+  Rendimiento del vehículo: ${rendimientoPorLitro} km por litro
+  Litros necesarios: ${litrosNecesarios.toFixed(2)}
+  Costo total del combustible: $${costoTotal}
+  Costo por persona: $${costoPorPersona.toFixed(2)}` 
 );
