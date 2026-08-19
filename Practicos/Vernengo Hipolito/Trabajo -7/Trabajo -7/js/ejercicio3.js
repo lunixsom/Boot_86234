@@ -18,19 +18,7 @@
 
 const nombres = ["Ana", "Bruno", "Camila", "Diego", "Elena"];
 
-
-if (nombres.includes("Camila")){
-    console.log(true);
-}
-
-console.log(nombres.includes("Camila"));   
-
+console.log(nombres.includes("Camila"));
 console.log(nombres.indexOf("Diego"));
-
-if (nombres.includes("Lucas")){
-    console.log(true);
-} else{
-    console.log(false);
-}
-
+console.log(nombres.includes("Lucas"));
 console.log(nombres.indexOf("Lucas"));

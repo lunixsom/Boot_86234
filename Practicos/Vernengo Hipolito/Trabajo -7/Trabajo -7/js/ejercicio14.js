@@ -16,19 +16,27 @@
 //   crearSaludo("Pedro", "pt")
 //   crearSaludo("Ali", "fr")
 
-function crearSaludo(nombre, idioma = "es") {
-    return idioma === "es" ? `Hola, ${nombre}!` :
-           idioma === "en" ? `Hello, ${nombre}!` :
-           idioma === "pt" ? `Olá, ${nombre}!` :
-           `Hi, ${nombre}!`;
-}
+const crearSaludo = (nombre, idioma) =>{
+    switch(idioma){
+        case "es": 
+            console.log( `Hola, ${nombre}`);
+            break;
+        
+        case "en":
+            console.log(`Hello, ${nombre}`);
+            break;
 
-crearSaludo("Lucí");
-crearSaludo("John", "en");
-crearSaludo("Pedro", "pt");
-crearSaludo("Ali", "fr");
+        case "pt":
+            console.log( `Ola, ${nombre}`);
+            break;
 
-console.log(crearSaludo("Lucí"));
-console.log(crearSaludo("John", "en"));
-console.log(crearSaludo("Pedro", "pt"));
-console.log(crearSaludo("Ali", "fr"));
+        default: 
+            console.log( `Hi, ${nombre}`);
+    }
+};
+
+crearSaludo("Sofia");
+crearSaludo("John","en");
+crearSaludo("Pepito","es");
+crearSaludo("Hipolito", "pt");
+crearSaludo("Juan","fr");
