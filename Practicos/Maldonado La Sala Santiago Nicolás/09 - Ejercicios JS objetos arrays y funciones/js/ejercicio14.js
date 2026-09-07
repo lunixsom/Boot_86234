@@ -23,12 +23,12 @@ function crearSaludo(nombre, idioma = "es") {
            `Hi, ${nombre}!`;
 }
 
-crearSaludo("Lucí");
+crearSaludo("Lucía");
 crearSaludo("John", "en");
 crearSaludo("Pedro", "pt");
 crearSaludo("Ali", "fr");
 
-console.log(crearSaludo("Lucí"));
+console.log(crearSaludo("Lucía"));
 console.log(crearSaludo("John", "en"));
 console.log(crearSaludo("Pedro", "pt"));
 console.log(crearSaludo("Ali", "fr"));

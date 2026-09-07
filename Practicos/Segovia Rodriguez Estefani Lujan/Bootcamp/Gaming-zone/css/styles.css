@@ -1,0 +1,179 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --primary-color: #0055af;
+  --secondary-color: #121212;
+  --background-color: #f8f9fa;
+  --text-color: #212529;
+  --text-color-light: #fff;
+  --font-family: "Arial", sans-serif;
+}
+
+.site-header {
+  background-color: var(--secondary-color);
+  color: var(--text-color-light);
+  padding: 10px 0;
+  text-align: center;
+}
+
+.logo {
+  width: 70px;
+  height: 70px;
+  display: block;
+  margin: 0 auto;
+}
+
+.nav {
+  margin-top: 5px;
+  justify-content: center;
+}
+
+.nav a {
+  color: var(--text-color-light);
+  text-decoration: none;
+  transition: 0.25s;
+  margin: 0 12px;
+  font-weight: bold;
+}
+.nav a:hover {
+  color: var(--primary-color);
+}
+
+.main-container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+#menu img {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+}
+
+#contacto form {
+  width: 500px;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+#contacto label {
+  display: block;
+  margin-bottom: 5px;
+}
+#contacto input,
+#contacto textarea {
+  font-size: 16px;
+  width: 100%;
+}
+
+body {
+  font-family: var(--font-family);
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
+
+.nav {
+  display: flex;
+  gap: 20px;
+}
+
+#inicio {
+  background-color: var(--primary-color);
+  color: var(--text-color-light);
+  padding: 30px;
+  border-radius: 8px;
+  margin: 20px 0;
+}
+
+#menu h2,
+#contacto h2,
+#servicios h2 {
+  color: var(--primary-color);
+  margin: 30px 0 15px;
+  padding-bottom: 8px;
+  border-bottom: 2px solid var(--primary-color);
+  text-transform: uppercase;
+}
+
+#menu article {
+  border: 1px solid var(--secondary-color);
+  border-radius: 6px;
+  padding: 18px;
+  margin-bottom: 20px;
+  background-color: #fff;
+}
+
+#menu article h3 {
+  background-color: var(--secondary-color);
+  color: var(--text-color-light);
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 15px;
+}
+
+#menu p {
+  margin: 15px 0;
+}
+
+#menu strong {
+  display: block;
+  text-align: right;
+  color: var(--primary-color);
+  font-size: 22px;
+}
+
+button {
+  background-color: var(--primary-color);
+  color: var(--text-color-light);
+  border: none;
+  padding: 10px 18px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: 0.25s;
+}
+
+button:hover {
+  background-color: #003f85;
+}
+
+#contacto form {
+  background-color: var(--secondary-color);
+  padding: 20px;
+  border-radius: 6px;
+}
+
+#contacto label {
+  color: var(--text-color-light);
+  font-weight: bold;
+}
+
+#contacto input,
+#contacto textarea {
+  padding: 8px;
+  margin-bottom: 12px;
+}
+
+#servicios p {
+  margin-bottom: 15px;
+}
+
+#servicios li {
+  list-style: none;
+  background-color: var(--primary-color);
+  color: var(--text-color-light);
+  padding: 10px;
+  margin-bottom: 8px;
+  border-radius: 4px;
+}
+
+footer {
+  background-color: var(--secondary-color);
+  color: var(--text-color-light);
+  text-align: center;
+  padding: 30px;
+  margin-top: 40px;
+}

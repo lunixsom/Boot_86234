@@ -23,8 +23,6 @@ if (nombres.includes("Camila")){
     console.log(true);
 }
 
-console.log(nombres.includes("Camila"));   
-
 console.log(nombres.indexOf("Diego"));
 
 if (nombres.includes("Lucas")){

@@ -30,7 +30,7 @@ const config = {
   "color-fondo": "#ffffff",
   "tamaño-fuente": 16,
   idioma: "es",
-  modoOscuro: true
+  modoOscuro: false
 };
 
 
