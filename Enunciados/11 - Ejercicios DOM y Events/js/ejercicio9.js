@@ -1,4 +1,4 @@
-// Ejercicio 9: Lista dinámica de contactos
+// Ejercicio 9: Lista dinámica de contactos   
 //
 // Abrí ejercicio9.html. Hay un formulario para agregar contactos, un buscador
 // y una lista vacía. Vas a construir toda la lógica desde cero.
