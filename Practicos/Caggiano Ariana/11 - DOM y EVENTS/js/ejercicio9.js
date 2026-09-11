@@ -62,7 +62,7 @@ function renderContactos(lista) {
   if (lista.length === 0) {
     contador.textContent = "No se encontraron contactos";
   } else {
-    contador.textContent = ${lista.length} contactos;
+    contador.textContent = `${lista.length} contactos`;
   }
 
   lista.forEach((contacto) => {

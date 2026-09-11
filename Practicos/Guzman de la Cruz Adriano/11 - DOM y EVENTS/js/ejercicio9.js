@@ -119,7 +119,7 @@ listaContactos.addEventListener("click",function(event){
     return;
   }
 
-  const id = Numbre(botonEliminar.dataset.id);
+  const id = Number(botonEliminar.dataset.id);
   
   contactos = contactos.filter(function(contacto){
     return contacto.id !== id;

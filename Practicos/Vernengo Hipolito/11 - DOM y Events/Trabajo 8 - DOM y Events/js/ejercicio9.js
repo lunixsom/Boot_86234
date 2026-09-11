@@ -65,7 +65,9 @@ function renderContactos(array){
   contactosHTML.innerHTML = "";
 
   array.forEach((contacto) =>{
-    contactosHTML.innerHTML += `<li>Id: ${contacto.id} Nombre: ${contacto.  nombre} Email: ${contacto.email}</li>`;
+    contactosHTML.innerHTML += `<li>Id: ${contacto.id} Nombre: ${contacto.  nombre} Email: ${contacto.email}</li>
+    <button class="btn-eliminar" data-id="${contacto.id}">✕</button>
+    `;
 })
 
 contadorHTML.textContent = `${array.length} contactos`;
@@ -95,6 +97,15 @@ botonAgregarHTML.addEventListener("click", () =>{
   renderContactos(contactos);
 })
 
+contactosHTML.addEventListener("click", (e) => {
+  const btnEliminar = e.target.closest(".btn-eliminar")
+  if (!btnEliminar) return // el click no fue en un boton de eliminar
+
+  const id = Number(btnEliminar.dataset.id)
+  contactos = contactos.filter(contacto => contacto.id !== id)
+
+  renderContactos(contactos)
+})
 
 buscadorHTML.addEventListener("input", (event) =>{
 

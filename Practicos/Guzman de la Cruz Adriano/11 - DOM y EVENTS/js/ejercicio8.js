@@ -53,15 +53,16 @@ const errorPassword = document.querySelector("#error-password");
 const exito = document.querySelector("#exito");
 
 function validarNombre(){
-    const valor = nombre.ariaValueMax.trim();
+    const valor = nombre.value.trim();
+    console.log(valor)
 
-    nombre.classList.remove("error");
+/*     nombre.classList.remove("error");
     errorNombre.textContent= "El nombre no puede estar vacio";
     errorNombre.classList.add("visible");
-    return false;
+    return false; */
 
-    if(valor.lengt<3){
-        nombre.classList("error");
+    if(valor.length<3){
+        nombre.classList.add("error");
         errorNombre.textContent = "El nombre debe tener al menos 3 caracteres";
         errorNombre.classList.add("visible");
         return false;
@@ -74,7 +75,8 @@ function validarNombre(){
 }
 
 function validarEmail(){
-    const valor = email.ariaValueMax.trim();
+    const valor = email.value.trim();
+   
 
     email.classList.remove("error");
     email.classList.remove("valido");
@@ -88,7 +90,7 @@ function validarEmail(){
 
     if(!valor.includes("@") || !valor.includes(".")){
         email.classList.add("error");
-        errorEmail.textContent = "Ingresa un email valid";
+        errorEmail.textContent = "Ingresa un email valido";
         errorEmail.classList.add("visible");
         return false;
     }
@@ -112,7 +114,7 @@ function validarPassword(){
         return false;
     }
 
-    if(valor.lengt < 8){
+    if(valor.length < 8){
         password.classList.add("error");
         errorPassword.textContent = "La contraseña debe contener 8 carecteres";
         errorPassword.classList.add("visible");
